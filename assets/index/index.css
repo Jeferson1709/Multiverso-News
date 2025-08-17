@@ -1,0 +1,32 @@
+@import './partials/section-um.css';
+@import './partials/section-dois.css';
+@import './partials/section-tres.css';
+@import './partials/section-quatro.css';
+@import '../css/global/global.css';
+body{
+    background-color:#EDE8D0;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: #4F4D46;
+   
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    position: relative;
+    left: 200px;
+    color: #FAFAFA;
+     
+}
+nav{
+    background-color: #4F4D46;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
