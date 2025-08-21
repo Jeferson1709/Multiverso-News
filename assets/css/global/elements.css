@@ -1,1 +1,17 @@
 /*mexendo em elementos*/
+
+.btn-topo{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+  
+}
+#quadrado{
+    background-color: #a400b9;
+    height: 38px;
+    width: 40px;
+    position: relative;
+    left: 75vh;
+}
