@@ -1,1 +1,10 @@
 /*Minhas fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.logo {
+    position: relative;
+    margin: auto;
+    color: antiquewhite;
+    top: 15px;
+    left: 3vw;
+}
