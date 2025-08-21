@@ -11,22 +11,47 @@ body{
 h1{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   color: #4F4D46;
+   color: #ede8d0ae;
+   position: relative;
+   top: .1vw;
    
+
+   
+}
+.lista{
+    list-style: decimal;
+}
+header{
+    display: flex;
+        background-color: #4F4D46;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
 }
 
 li{
     list-style-type: none;
     display: inline;
     position: relative;
-    left: 200px;
+    left: 60vw  ;
     color: #FAFAFA;
-     
+    padding: 20px;    
 }
+
 nav{
-    background-color: #4F4D46;
-    display: flex;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
+    
+justify-content: center  ;
+    
+}
+article {
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+footer{
+    
+  text-align: center;
+    background-color: #fff;
+    height: 150px;
 }
