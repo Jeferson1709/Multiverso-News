@@ -1,7 +1,6 @@
 @import './elements.css';
 @import './fonts.css';
-@import './normalize.css';
-@import './variables.css';
+
 * {
     padding: 0;
     border: none;
@@ -9,7 +8,8 @@
 }
 
 body {
-    background-color: #FFF;
+background-image: url(image.png);
+  background-repeat: repeat;
     width: 100%;
     padding: 0px;
     margin: 0px;
